@@ -1,0 +1,96 @@
+/* Name: Abeer Nabeel Hasan - 20192830 - sec.4
+Batool Abdulla - 202009982 - sec.8 */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #2301cdb7;
+    color: #241979;
+    text-align: center;
+}
+
+header {
+    background-color: #a7a6d8;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30pt;
+    color: #042a5a;
+}
+
+nav ul li {
+    display:inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #3003a2;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1e00ff;
+    font-size: 2em;
+    text-align: center;
+}
+
+p, ul {
+    font-size: 1.1em;
+
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+
+table {
+    width: 60%;
+    margin: 10px auto;
+    border-collapse:collapse;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #c6c2e5;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #7a79ac;
+    color: #241979;
+    text-align: center;
+    padding: 0.5px;
+    position:-ms-page;
+    width: 100%;
+    bottom: 0;
+
+}
+ 
